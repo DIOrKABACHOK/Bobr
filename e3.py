@@ -33,11 +33,17 @@ def oblaka(x, y):
 def ghost(x, y):
     circle(screen, (200, 200, 200), (600+x, 500+y), 25)
     polygon(screen, (200, 200, 200), [(580+x, 485+y), (620+x, 485+y), (670+x, 545+y), (560+x, 545+y), (520+x, 555+y)])
-    ellipse(screen, (200, 200, 200), (550+x, 520+y, 90, 50), 25)
+    ellipse(screen, (200, 200, 200), (580+x, 520+y, 90, 50), 25)
+    ellipse(screen, (200, 200, 200), (530+x, 540+y, 100, 30), 25)
     circle(screen, (100, 100, 250), (585+x, 490+y), 5)
     circle(screen, (0, 0, 0), (585+x, 490+y), 2)
     circle(screen, (100, 100, 250), (605+x, 490+y), 5)
     circle(screen, (0, 0, 0), (605+x, 490+y), 2)
+    ellipse(screen, (0, 0, 0), (585+x, 565+y, 30, 10), 25)
+    ellipse(screen, (0, 0, 0), (545+x, 565+y, 30, 10), 25)
+    ellipse(screen, (0, 0, 0), (525+x, 545+y, 10, 40), 25)
+    ellipse(screen, (0, 0, 0), (625+x, 565+y, 30, 10), 25)
+    ellipse(screen, (0, 0, 0), (660+x, 530+y, 10, 50), 100)
 
 
 home(600, -50)
